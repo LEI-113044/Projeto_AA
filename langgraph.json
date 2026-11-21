@@ -1,0 +1,10 @@
+{ 
+    "dependencies": ["."], 
+
+    "graphs":
+    {
+        "rag_agent": "./Week5/rag_classifier.py:app"
+    },
+
+    "env": ".env"
+}

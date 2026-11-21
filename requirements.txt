@@ -9,5 +9,6 @@ langsmith
 langgraph-cli[inmem]
 langgraph-checkpoint-sqlite
 python-dotenv
+requests
 sentence-transformers
 chromadb
