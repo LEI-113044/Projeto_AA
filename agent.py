@@ -37,7 +37,7 @@ def reset() -> None:
     The document index (RAG) should be maintained.
     """
 
-    # YOUR IMPLEMENTATION STARTS HERE.
+    # YOUR IMPLEMENTATION STARTS HERE. test change
 
     return None
 
