@@ -98,36 +98,3 @@ print()
 print("= " * 50)
 print("Configuration Tests Successfully Completed")
 print("= " * 50)
-
-
-
-# ---------------------------------------------------------------------
-# ELIZA
-# ---------------------------------------------------------------------
-
-# Source - https://stackoverflow.com/a/70209661
-# Posted by Karl Knechtel
-# Retrieved 2026-09-23, License - CC BY-SA 4.0
-def swap_words(s, x, y):
-    return y.join(part.replace(y, x) for part in s.split(x))
-
-print("Hello, my name is ELIZA. How are you feeling today?")
-chat = True
-while chat == True:
-    list1 = [1, 2, 3]
-    random1 =  random.choice(list1)
-    feel = "feel"
-    end = "end"
-    my = "my"
-    reply = input("Reply with a sentence like the example: 'I feel happy', or with 'end' to finish this session: ")
-    words = reply.split()
-    if feel in words:
-        print("Why do you feel " + words[2] + "?")
-    else:
-        match random1:
-            case 1: print("Go on.")
-            case 2: print("Keep going.")
-            case 3: print("Tell me more about that.")
-    if end in words:
-        chat = False
-print("Thank you for this session.")
